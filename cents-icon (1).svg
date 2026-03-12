@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a6b47"/>
+      <stop offset="100%" stop-color="#2d4f38"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.14)"/>
+      <stop offset="55%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="230" ry="230" fill="url(#bg)"/>
+  <rect width="1024" height="1024" rx="230" ry="230" fill="url(#shine)"/>
+
+  <!-- Large C shape built from paths — no font rendering needed -->
+  <!-- Outer ellipse arc, opening on right ~50 degrees top+bottom -->
+  <path d="
+    M 680,268
+    A 262,258 0 1 0 680,756
+    L 614,756
+    A 196,192 0 1 1 614,268
+    Z
+  " fill="#f0ece4"/>
+
+  <!-- Top serif bar -->
+  <rect x="570" y="257" width="148" height="30" rx="15" fill="#f0ece4"/>
+  <!-- Bottom serif bar -->
+  <rect x="570" y="737" width="148" height="30" rx="15" fill="#f0ece4"/>
+
+  <!-- Sage accent dot -->
+  <circle cx="716" cy="560" r="28" fill="#8fbe9a"/>
+
+  <!-- Subtle underline rule -->
+  <rect x="188" y="650" width="648" height="3.5" rx="2" fill="rgba(255,255,255,0.18)"/>
+</svg>
