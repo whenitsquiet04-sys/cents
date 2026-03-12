@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a6b47"/>
+      <stop offset="100%" style="stop-color:#2d4f38"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.12)"/>
+      <stop offset="50%" style="stop-color:rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect width="1024" height="1024" rx="230" ry="230" fill="url(#bg)"/>
+  <!-- Subtle shine overlay -->
+  <rect width="1024" height="1024" rx="230" ry="230" fill="url(#shine)"/>
+
+  <!-- Subtle dot texture -->
+  <circle cx="200" cy="200" r="3" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="400" cy="150" r="2" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="820" cy="250" r="3" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="150" cy="700" r="2.5" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="870" cy="780" r="3" fill="rgba(255,255,255,0.06)"/>
+
+  <!-- "Cents." wordmark — Fraunces italic style rendered as paths approximation -->
+  <!-- Using text element with italic serif feel -->
+  <text
+    x="512"
+    y="548"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="280"
+    font-style="italic"
+    font-weight="300"
+    fill="#f0ece4"
+    text-anchor="middle"
+    letter-spacing="-8"
+  >Cents</text>
+
+  <!-- The dot — sage accent -->
+  <circle cx="694" cy="570" r="22" fill="#8fbe9a"/>
+
+  <!-- Thin underline accent -->
+  <rect x="200" y="630" width="624" height="2.5" rx="2" fill="rgba(255,255,255,0.15)"/>
+</svg>
